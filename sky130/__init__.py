@@ -1,4 +1,6 @@
 import logging
+
+import skidl
 from skidl.pyspice import *
 from skidl.tools.spice import *
 
