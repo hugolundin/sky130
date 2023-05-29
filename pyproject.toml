@@ -18,6 +18,7 @@ wheel = "^0.40.0"
 setuptools = "^67.8.0"
 tikzplotlib = "^0.10.1"
 pyspice = {git = "https://github.com/hugolundin/pyspice", rev = "main"}
+skidl = {git = "https://github.com/devbisme/skidl", rev = "development"}
 
 [build-system]
 requires = ["poetry-core"]

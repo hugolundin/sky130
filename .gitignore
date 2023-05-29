@@ -307,3 +307,6 @@ $RECYCLE.BIN/
 
 # End of https://www.toptal.com/developers/gitignore/api/macos,linux,windows,visualstudiocode,virtuoso,python,vim
 
+*_sklib.py
+*.net
+*.erc
