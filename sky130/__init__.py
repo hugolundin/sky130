@@ -13,7 +13,7 @@ skidl.no_files()
 # Ngspice looks for spinit here.
 os.environ["SPICE_SCRIPTS"] = os.path.dirname(os.path.abspath(__file__))
 
-# Disable warning about footprints not being found. 
+# Disable warning about footprints not being found.
 skidl.empty_footprint_handler = lambda _: _
 
 logging.disable()
