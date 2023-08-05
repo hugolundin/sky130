@@ -22,6 +22,9 @@ skidl = {git = "https://github.com/devbisme/skidl", rev = "development"}
 pyqtgraph = "^0.13.3"
 pyqt6 = "^6.5.0"
 
+[tool.poetry.group.dev.dependencies]
+ipykernel = "^6.23.1"
+
 [build-system]
 requires = ["poetry-core"]
 build-backend = "poetry.core.masonry.api"
